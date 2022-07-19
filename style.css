@@ -47,13 +47,22 @@
 
 .team-section .container .team-card .card {
   width: 100%;
-  background-color: #fafafa;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px;
   cursor: pointer;
+  border-radius: 4%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card:nth-child(odd) {
+  background: rgb(192, 230, 255) url(./sparkles.png);
+}
+
+.card:nth-child(even) {
+  background: rgba(19, 226, 43, 0.822) url(./sparkles.png);
 }
 
 .team-section .container .team-card .card:hover {
@@ -66,6 +75,7 @@
   width: 150px;
   border-radius: 50%;
   border: 6px solid #fff;
+  background-color: #fafafa;
 }
 
 .team-section .container .team-card .card .content {
