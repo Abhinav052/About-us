@@ -76,7 +76,7 @@
 }
 
 .team-section .container .team-card .card:hover {
-  opacity: 0.8;
+  opacity: 0.85;
   transition: 0.15s;
   transform: translate(4px, -4px);
 }
