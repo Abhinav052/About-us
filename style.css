@@ -9,14 +9,8 @@
 .navbar {
   width: 100%;
   height: 8vh;
-  background-image: radial-gradient(
-    circle,
-    #720e9e,
-    #922fb1,
-    #b14bc5,
-    #d066d9,
-    #ee82ee
-  );
+  background: rgb(192, 230, 255);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* card section css */
@@ -74,11 +68,11 @@
 }
 
 .card:nth-child(odd) {
-  background: #ee82ee url(./sparkles.png);
+  background: rgb(192, 230, 255) url(./sparkles.png);
 }
 
 .card:nth-child(even) {
-  background: #ffb277 url(./sparkles.png);
+  background: rgba(19, 226, 43, 0.822) url(./sparkles.png);
 }
 
 @keyframes animate {
