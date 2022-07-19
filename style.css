@@ -27,7 +27,7 @@
   font-size: 35px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #eb6234;
+  color: purple;
 }
 
 .team-section .container .container .title p {
@@ -77,7 +77,7 @@
   font-size: 27px;
   margin-top: 10px;
   letter-spacing: 1.5px;
-  color: #639ab8;
+  color: rgb(170, 21, 170);
 }
 
 .team-section .container .team-card .card .content h4 {
