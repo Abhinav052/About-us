@@ -55,6 +55,7 @@
   cursor: pointer;
   border-radius: 4%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  animation: animate 2s linear infinite;
 }
 
 .card:nth-child(odd) {
@@ -65,9 +66,19 @@
   background: rgba(19, 226, 43, 0.822) url(./sparkles.png);
 }
 
+@keyframes animate {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 0px -64px;
+  }
+}
+
 .team-section .container .team-card .card:hover {
-  background-color: #f3f3f3;
-  transition: 0.3s;
+  opacity: 0.8;
+  transition: 0.15s;
+  transform: translate(4px, -4px);
 }
 
 .team-section .container .team-card .card .image-section img {
