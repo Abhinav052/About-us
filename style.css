@@ -6,6 +6,21 @@
   font-family: "Lato", sans-serif;
 }
 
+.navbar {
+  width: 100%;
+  height: 8vh;
+  background-image: radial-gradient(
+    circle,
+    #720e9e,
+    #922fb1,
+    #b14bc5,
+    #d066d9,
+    #ee82ee
+  );
+}
+
+/* card section css */
+
 .team-section {
   width: 100%;
 }
@@ -59,11 +74,11 @@
 }
 
 .card:nth-child(odd) {
-  background: rgb(192, 230, 255) url(./sparkles.png);
+  background: #ee82ee url(./sparkles.png);
 }
 
 .card:nth-child(even) {
-  background: rgba(19, 226, 43, 0.822) url(./sparkles.png);
+  background: #ffb277 url(./sparkles.png);
 }
 
 @keyframes animate {
@@ -122,5 +137,8 @@
 @media screen and (max-width: 768px) {
   .team-section .container .team-card {
     grid-template-columns: 1fr;
+  }
+  .team-section .container .row {
+    width: 80%;
   }
 }
